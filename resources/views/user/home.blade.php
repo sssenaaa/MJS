@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home - BookNest 1')
+@section('title', 'Home - BookNest 2')
 
 @section('content')
 <!-- Hero Section -->

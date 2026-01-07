@@ -75,7 +75,7 @@
                     <label class="form-label" for="cover">Cover Buku (JPG, PNG)</label>
                     @if($book->cover)
                         <div class="image-preview" style="margin-bottom: 1rem;">
-                            <img src="{{ asset('storage/' . $book->cover) }}" alt="Current cover">
+                            <img src="{{ asset('uploads/covers/' . $book->cover) }}" alt="Current cover">
                         </div>
                     @endif
                     <input type="file" id="cover" name="cover" class="form-input" accept="image/*">

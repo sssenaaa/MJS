@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'Home - BookNest updated')
+@section('title', 'Home - BookNest')
 
 @section('content')
 <!-- Hero Section -->
 <section class="hero">
-    <h1>Jelajahi Dunia<span class="gold-text">Literasi Digital</span></h1>
+    <h1>Jelajahi Dunia <span class="gold-text">Literasi Digital</span></h1>
     <p>Ribuan buku berkualitas dalam genggaman Anda. Baca kapan saja, di mana saja.</p>
     
     <div class="hero-buttons">

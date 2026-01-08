@@ -7,7 +7,7 @@
     <div class="book-detail-container">
         <div>
             @if($book->cover)
-                <img src="{{ asset('storage/' . $book->cover) }}"
+                <img src="{{ asset('storage/' . $book->cover) }}" 
                      alt="Cover buku {{ $book->judul }}" 
                      class="book-detail-cover">
             @else
